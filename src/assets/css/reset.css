@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-align: center;
+  color: #000;
+}
+li {
+  list-style: none;
+}
+em,
+i {
+  font-style: normal;
+}
+.clear:after {
+  display: block;
+  content: '';
+  visibility: hidden;
+  clear: both;
+  height: 0;
+}
